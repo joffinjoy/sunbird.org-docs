@@ -3,9 +3,9 @@ info:
   title: Assessment Service API(s)s
   termsOfService: 'https://github.com/project-sunbird/sunbird-commons/blob/master/LICENSE'
   description: >-
-    - The Sunrdb Service is intermediate service to access the sunbird service api's. Apis perform operations related to user management, organisation management and learning resources etc 
+    - The Assessment Service is intermediate service to access the sunbird service api's. Apis perform operations related to user management, organisation management and learning resources etc 
     
-    - The URL for sunbird service API(s) is `sunbird/api`
+    - The URL for assessment service API(s) is `assessment/api`
 
     - <b>Note:</b> These resources can be used in other services 
   contact: {}
@@ -26,6 +26,15 @@ paths:
         - name: X-authenticated-user-token
           in: header
           description: Represents the authorized User token to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -86,6 +95,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the access token
@@ -133,6 +151,15 @@ paths:
         - name: X-authenticated-user-token
           in: header
           description: Represents the authorized User token to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -199,6 +226,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - name: solutionId
           in: query
           description: solution id
@@ -261,6 +297,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - in: path
           name: observationId
           required: true
@@ -303,6 +348,15 @@ paths:
         - name: X-authenticated-user-token
           in: header
           description: Represents the authorized User token to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -362,6 +416,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - in: path
           name: observationId
           required: true
@@ -418,6 +481,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - in: path
           name: observationId
           required: true
@@ -466,6 +538,15 @@ paths:
         - name: X-authenticated-user-token
           in: header
           description: Represents the authorized User token to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -525,6 +606,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - in: query
           name: evidenceId
           required: true
@@ -577,6 +667,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - in: path
           name: observationSubmissionId
           required: true
@@ -619,6 +718,15 @@ paths:
         - name: X-authenticated-user-token
           in: header
           description: Represents the authorized User token to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -678,6 +786,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - in: path
           name: observationId
           required: true
@@ -726,6 +843,15 @@ paths:
         - name: X-authenticated-user-token
           in: header
           description: Represents the authorized User token to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -784,6 +910,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - in: path
           name: observationId
           required: true
@@ -827,6 +962,15 @@ paths:
         - name: X-authenticated-user-token
           in: header
           description: Represents the authorized User token to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -886,6 +1030,15 @@ paths:
             required: true
             schema:
               type: string
+          - name: Authorization
+            in: header
+            description: >-
+              To make use of the API, you require authorization. Raise a request
+              to the administrator for the use of the API. You will receive the
+              authorization key. Specify the key received, here.
+            required: true
+            schema:
+              type: string
           - in: path
             name: observationSubmissionId
             required: true
@@ -929,6 +1082,15 @@ paths:
         - name: X-authenticated-user-token
           in: header
           description: Represents the authorized User token to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -983,6 +1145,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - in: path
           name: surveySubmissionId
           required: true
@@ -1034,6 +1205,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - in: path
           name: observationId
           required: true
@@ -1082,6 +1262,15 @@ paths:
         - name: X-authenticated-user-token
           in: header
           description: Represents the authorized User token to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -1138,6 +1327,15 @@ paths:
         - name: X-authenticated-user-token
           in: header
           description: Represents the authorized User token to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -1200,6 +1398,15 @@ paths:
         - name: X-authenticated-user-token
           in: header
           description: Represents the authorized User token to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string

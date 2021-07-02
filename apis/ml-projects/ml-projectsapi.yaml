@@ -24,6 +24,21 @@ paths:
            - The fields marked with an asterisk (*) are mandatory. They cannot be null or empty.
       operationId: sync
       parameters:
+        - name: X-Authenticated-User-Token
+          in: header
+          description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - name: projectId
           in: path
           description: project Id
@@ -81,6 +96,21 @@ paths:
            - The fields marked with an asterisk (*) are mandatory. They cannot be null or empty.
       operationId: tasksStatus
       parameters:
+        - name: X-Authenticated-User-Token
+          in: header
+          description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - name: projectId
           in: path
           description: project Id
@@ -132,6 +162,21 @@ paths:
            - The fields marked with an asterisk (*) are mandatory. They cannot be null or empty.
       operationId: solutionDetails
       parameters:
+        - name: X-Authenticated-User-Token
+          in: header
+          description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - name: projectId
           in: path
           description: project Id
@@ -177,6 +222,22 @@ paths:
            - The endpoint for **add userProjects V1** is `/v1/userProjects/add/{projectId}`  
            - The fields marked with an asterisk (*) are mandatory. They cannot be null or empty.
       operationId: add
+      parameters:
+        - name: X-Authenticated-User-Token
+          in: header
+          description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         required: true
         description: >-
@@ -220,6 +281,21 @@ paths:
            - The fields marked with an asterisk (*) are mandatory. They cannot be null or empty.
       operationId: share
       parameters:
+        - name: X-Authenticated-User-Token
+          in: header
+          description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - name: projectId
           in: path
           description: project Id
@@ -266,6 +342,21 @@ paths:
            - The fields marked with an asterisk (*) are mandatory. They cannot be null or empty.
       operationId: details
       parameters:
+        - name: X-Authenticated-User-Token
+          in: header
+          description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - name: projectId
           in: path
           description: project Id
@@ -305,6 +396,21 @@ paths:
            - The fields marked with an asterisk (*) are mandatory. They cannot be null or empty.
       operationId: entity
       parameters:
+        - name: X-Authenticated-User-Token
+          in: header
+          description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - name: _id
           in: path
           description: Id
@@ -358,6 +464,21 @@ paths:
            - The fields marked with an asterisk (*) are mandatory. They cannot be null or empty.
       operationId: detailView
       parameters:
+        - name: X-Authenticated-User-Token
+          in: header
+          description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - name: _id
           in: path
           description: Id
@@ -418,6 +539,21 @@ paths:
            - The fields marked with an asterisk (*) are mandatory. They cannot be null or empty.
       operationId: getProgramsByEntity
       parameters:
+        - name: X-Authenticated-User-Token
+          in: header
+          description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - name: _id
           in: path
           description: Id
@@ -478,6 +614,21 @@ paths:
            - The fields marked with an asterisk (*) are mandatory. They cannot be null or empty.
       operationId: templateDetails
       parameters:
+        - name: X-Authenticated-User-Token
+          in: header
+          description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - name: templateId
           in: path
           description: template Id
@@ -507,10 +658,7 @@ paths:
       deprecated: false
       security:
         - bearer: []
-
- 
-  
-                
+         
 components:
   schemas:
     

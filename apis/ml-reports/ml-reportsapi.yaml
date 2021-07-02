@@ -29,6 +29,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the entityId and entityType
@@ -75,6 +84,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -127,6 +145,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - in: query
           name: solutionId
           required: true
@@ -169,6 +196,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -221,6 +257,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - in: query
           name: submissionId
           required: true
@@ -263,6 +308,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -315,6 +369,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - in: query
           name: solutionId
           required: true
@@ -357,6 +420,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -405,6 +477,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the entityId and entityType
@@ -450,6 +531,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -502,6 +592,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the entityId, immediateChildType and entityType
@@ -547,6 +646,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -598,6 +706,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       responses:
         200:
           description: "viewProjectReport Response"
@@ -627,6 +744,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -678,6 +804,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the entityId, progarmId, solutionId and entityType
@@ -723,6 +858,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -774,6 +918,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the title, goal, duration, status, startDate, endDate, category and tasks
@@ -813,6 +966,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -858,6 +1020,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the schoolName, reportType and projectDetails
@@ -900,6 +1071,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the projectName, goal, duration, assigneeName, startDate and tasks
@@ -939,6 +1119,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -991,6 +1180,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the submissionId
@@ -1030,6 +1228,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -1075,6 +1282,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the entityId, entityType, immediateChildEntityType and observationId
@@ -1114,6 +1330,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -1166,6 +1391,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the entityId and observationId
@@ -1205,6 +1439,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -1256,6 +1499,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the observationId and questionId filter
@@ -1301,6 +1553,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -1351,6 +1612,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the entityId and entityType
@@ -1395,6 +1665,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -1445,6 +1724,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
         - name: submissionId
           in: query
           required: true
@@ -1485,6 +1773,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -1532,6 +1829,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -1584,6 +1890,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the submissionId and questionId filter
@@ -1623,6 +1938,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -1675,6 +1999,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the entityId,observationId,entityType and criteriaId filter
@@ -1721,6 +2054,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -1772,6 +2114,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the observationId and criteriaId filter
@@ -1817,6 +2168,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -1867,6 +2227,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the submissionId / entityId and observationId / observationId 
@@ -1911,6 +2280,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -1963,6 +2341,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the submissionId and questionId filter
@@ -2012,6 +2399,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the submissionId
@@ -2054,6 +2450,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the entityId and observationId
@@ -2093,6 +2498,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -2144,6 +2558,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the observationId and questionId filter
@@ -2189,6 +2612,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -2241,6 +2673,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the submissionId and questionId filter
@@ -2280,6 +2721,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -2332,6 +2782,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the entityId,observationId,entityType and criteriaId filter
@@ -2378,6 +2837,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -2429,6 +2897,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the observationId and criteriaId filter
@@ -2474,6 +2951,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -2524,6 +3010,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the entityId and observationId 
@@ -2568,6 +3063,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
@@ -2620,6 +3124,15 @@ paths:
           required: true
           schema:
             type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
+          required: true
+          schema:
+            type: string
       requestBody:
         description: >-
             - The body payload comprises of the entityId, entityType, immediateChildEntityType and solutionId
@@ -2666,6 +3179,15 @@ paths:
         - name: X-auth-token
           in: header
           description: Represents the authorized User ID to execute the API.
+          required: true
+          schema:
+            type: string
+        - name: Authorization
+          in: header
+          description: >-
+            To make use of the API, you require authorization. Raise a request
+            to the administrator for the use of the API. You will receive the
+            authorization key. Specify the key received, here.
           required: true
           schema:
             type: string
