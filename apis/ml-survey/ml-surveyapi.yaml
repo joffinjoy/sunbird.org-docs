@@ -467,7 +467,7 @@ paths:
     post:
       tags:
       - Observation Submissions API
-      summary: To Update Observation Submission
+      summary: Update Observation Submission
       description: |-
         This API is used to update observation submission details. For example you can update the title of observation submission using this api.
           - The endpoint for **observationSubmissions Update** is ` /observationSubmissions/mlsurvey/v1/update`
@@ -537,7 +537,7 @@ paths:
       security:
         - bearer: []
   /observationSubmissions/mlsurvey/v1/create/{observationId}:
-    get:
+    post:
       tags:
       - Observation Submissions API
       summary: Create A New Observation Submission
@@ -579,6 +579,18 @@ paths:
           schema:
             type: string 
           example: 5cebbefe5943912f56cf8e16
+      requestBody:
+        description: >-
+          'The body parameter refers to the format of the request, the request
+          body (payload) takes the following media types to make the payload:'
+           
+           - JSON 
+           
+          The body contains resource object for create observation submission  
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/observationapiSubmissionsSolutionListRequest"
       responses:
         200:
           description: "Create observation submission successful response"
@@ -1702,14 +1714,17 @@ components:
                       type: string
                       example: required role  
     surveySubmissionsapiUpdateRequest:
+      description: Survey submission update request object
       type: object
       properties:
         evidence: 
+          description: evidence which contains question answers and submitted by details
           type: object
           properties: 
             externalId: 
+              description: external Id of evidence
               type: string
-              example: 
+              example: SF
             answers: 
               type: object
               properties: 
@@ -1718,10 +1733,10 @@ components:
                   properties: 
                     qid: 
                       type: string
-                      example: 
+                      example: 5be442149a14ba4b5038dce4
                     responseType: 
                       type: string
-                      example: 
+                      example: slider
                     value: 
                       type: array
                       items: 
@@ -1732,7 +1747,7 @@ components:
                             properties: 
                               qid: 
                                 type: string
-                                example: 
+                                example: ""
                               value: 
                                 type: string
                                 example: 
